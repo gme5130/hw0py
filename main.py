@@ -1,2 +1,3 @@
 temp = input("Enter temperature in celsius: ")
-print(temp + " in celsius is equivalent to Fahrenheit")
+temp = int(temp)
+print(str(temp) + " in celsius is equivalent to " + str(temp+32) + " Fahrenheit.")
